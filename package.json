@@ -1,0 +1,26 @@
+{
+  "name": "dan_evans",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@angular/animations": "^8.2.14",
+    "@angular/common": "^8.2.14",
+    "@angular/compiler": "^8.2.14",
+    "@angular/core": "^8.2.14",
+    "@angular/http": "^7.2.16",
+    "@angular/platform-browser": "^8.2.14",
+    "@angular/platform-browser-dynamic": "^8.2.14",
+    "@angular/platform-server": "^8.2.14",
+    "core-js": "^3.6.4",
+    "rxjs": "^6.5.4",
+    "zone.js": "^0.10.2"
+  },
+  "devDependencies": {
+    "fuse-box": "^3.7.1",
+    "typescript": "^3.7.5"
+  }
+}
