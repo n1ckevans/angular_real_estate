@@ -4,7 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 @NgModule({
   declarations: [AppComponent],
-  imports: [BrowserModule],
+  imports: [BrowserModule.withServerTransition({appId: 'de'})],
   bootstrap: [AppComponent],
 })
 

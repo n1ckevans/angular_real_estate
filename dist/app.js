@@ -7,6 +7,7 @@ ___scope___.file("main.js", function(exports, require, module, __filename, __dir
 Object.defineProperty(exports, "__esModule", { value: true });
 require("zone.js/dist/zone");
 require("core-js/es7/reflect");
+// import 'core-js/es/reflect';
 require("core-js/proposals/reflect-metadata");
 const platform_browser_dynamic_1 = require("@angular/platform-browser-dynamic");
 const app_module_1 = require("./app/app.module");
@@ -31,7 +32,7 @@ let AppModule = class AppModule {
 AppModule = __decorate([
     core_1.NgModule({
         declarations: [app_component_1.AppComponent],
-        imports: [platform_browser_1.BrowserModule],
+        imports: [platform_browser_1.BrowserModule.withServerTransition({ appId: 'de' })],
         bootstrap: [app_component_1.AppComponent],
     })
 ], AppModule);
@@ -70,4 +71,4 @@ FuseBox.import("default/main.js");
 FuseBox.main("default/main.js");
 })
 (FuseBox)
-//# sourceMappingURL=app.js.map?tm=1580012093409
+//# sourceMappingURL=app.js.map?tm=1580014812792
